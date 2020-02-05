@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Discord-Bot [dependencies]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Discord_Bot.main" />
@@ -42,8 +42,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Discord-Bot [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Discord-Bot [dependencies]" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -78,25 +98,29 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="575" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1580897356059" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1580904038015">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1580905378571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580904038015" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1580904038015">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580905378571" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1580905378570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580904038015" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1580904038015">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580905378570" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1580905378570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580904038015" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1580904038015">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580905378570" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1580905378570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580904038015" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580905378570" />
     <state x="279" y="77" key="SettingsEditor" timestamp="1580893765273">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="279" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1580893765273" />
+    <state x="444" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1580908874113">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="444" y="259" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1580908874113" />
   </component>
 </project>
