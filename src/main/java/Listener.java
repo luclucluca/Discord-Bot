@@ -10,7 +10,21 @@ public class Listener extends ListenerAdapter {
         String message = event.getMessage().getTimeCreated() + " " + event.getAuthor().getName() + ": "
                 + event.getMessage().getContentDisplay();
 
+        try {
+            chatLogs(message);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         System.out.println(event.getMessage().getTimeCreated() + " " + event.getAuthor().getName() + ": "
                 + event.getMessage().getContentDisplay());
+    }
+
+    public void chatLogs(String message) throws IOException {
+        BufferedWriter logs = new BufferedWriter(new FileWriter("logs.txt", true));
+        logs.write(message);
+        logs.newLine();
+        logs.close();
+
     }
 }
