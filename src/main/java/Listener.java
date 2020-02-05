@@ -1,8 +1,12 @@
+import com.vdurmont.emoji.EmojiManager;
 import net.dv8tion.jda.api.entities.Activity;
+import net.dv8tion.jda.api.entities.MessageChannel;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import javax.annotation.Nonnull;
 import java.io.*;
+
+
 
 public class Listener extends ListenerAdapter {
     @Override
@@ -15,6 +19,17 @@ public class Listener extends ListenerAdapter {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        if (EmojiManager.containsEmoji(event.getMessage().getContentDisplay())) {
+            event.getMessage().delete().complete();
+            MessageChannel channel = event.getChannel();
+            channel.sendMessage("STOP! YOU VIOLATED THE LAW! " +
+                    "PAY THE COURT A FINE OR SERVE YOUR SENTENCE, YOUR STOLEN EMOJIS ARE NOW FORFEIT.")
+            .queue();
+
+        }
+
+        System.out.println(event.getMessage().getContentDisplay());
 
     }
 
