@@ -5,7 +5,7 @@ import javax.security.auth.login.LoginException;
 public class Main {
     public static void main(String[] args) throws LoginException {
         JDABuilder builder = new JDABuilder();
-        String token = "insert token here";
+        String token = "insert Token here";
         builder.setToken(token);
         builder.addEventListeners(new Listener());
         builder.build();
